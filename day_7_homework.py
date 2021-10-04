@@ -74,17 +74,17 @@
 # բոլոր x-երը տեղափոխվել են սթրինգի ամենավերջը։
 
 
-# def endX(string_x: str):
+# def end_X(string_x: str):
 #     if len(string_x)  == 1 or len(string_x) == 0:
 #         return string_x
 #     else:
 #         if string_x[0] == 'x':
 #             return endX(string_x[1:]) + string_x[0]
 #         else:
-#             return string_x[0] + endX(string_x[1:])
+#             return string_x[0] + end_X(string_x[1:])
 #
 # a = "xxrpxpe"
-# print(endX(a)) #→ "rexx"
+# print(end_X(a))
 
 
 """OLD STUFF"""
